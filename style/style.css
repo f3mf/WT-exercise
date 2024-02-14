@@ -1,0 +1,115 @@
+.header-index {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color: #9c7e09;
+}
+
+.text-index {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #9c7e09 !important;
+    text-align: center;
+}
+
+.link-index {
+    text-decoration: none;
+    color: #b08f0b;
+    }
+
+.link-index:hover {
+    color: #c7a20c;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.trigger-title1 {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.nuanced-hr {
+    border: none; 
+    border-top: 2px solid #ddd;
+    height: 1px; 
+    background-color: lightgray;
+    margin: 20px 0;
+    opacity: 0.5;
+}
+
+.bold-hr {
+    border: none; 
+    border-top: 6px solid;
+    background-color: black;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3,h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;  
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+body {
+    margin: 9% auto;
+	max-width: 900px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+figcaption {
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+
+.illustration {
+    color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stories {
+    color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+.data {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-form {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #9c7e09 !important;
+    padding-left: 25px;
+}
+
+.list-form {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.vacation-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #4dbdbd;
+}

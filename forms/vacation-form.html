@@ -1,0 +1,42 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title class="form-title">Book a vacation</title>
+            <link href="style.css" rel="stylesheet" type="text/css">
+        </head>
+        <section>
+            <header class="vacation-title">Book a vacation</header>
+        </section>
+            <form method="get" action="https://www.fabiovitali.it/TW/DHDK/doResponse.php">
+                <p>
+                    <label>Choose Island <select name="island">
+                        <option value="">Choose...</option>
+                        <option value="aitutaki">Aitutaki, Cook Islands</option>
+                        <option value="maldives">Maldives</option>
+                        <option value="saba">Saba</option>
+                        <option value="koh rong">Koh Rong, Cambodia</option>
+                        <option value="aitutaki">Aitutaki, Cook Islands</option>
+                        <option value="koh lipe">Koh Lipe, Thailand</option>
+                    </select></label>
+                </p>
+                <p>Arriving: <input name="arriving" type="date"></p>
+                <p>Departing: <input name="departing" type="date"></p>
+                <p>Name: <input name="name" type="text" placeholder="Name" size="40" autofocus></p>
+                <p>Surname: <input name="surname" type="text" placeholder="Surname" size="40" autofocus></p>
+                <p>Address: <input name="address" type="text" placeholder="12234 Main St" size="40" autofocus></p>
+                <p>City: <input name="city" type="text" placeholder="" size="40" autofocus></p>
+                <label>State <select name="state">
+                    <option value="">Choose...</option>
+                    <option value="afghanistan">Afghanistan</option>
+                    <option value="aland islands">Aland Islands</option>
+                    <option value="albania">Albania</option>
+                    <option value="algeria">Algeria</option>
+                    <option value="american samoa">American Samoa</option>
+                    <option value="andorra">Andorra</option>
+                </select></label>
+                <p><label><input type="checkbox" name="reminder" value="art" checked>Remember me</label></p>
+                <p><input type="submit" name="book your vacation" value="Book your vacation">
+                    <input type="submit" name="ok" value="Ok">
+            </form>
+    </html>
+</DOCTYPE>
